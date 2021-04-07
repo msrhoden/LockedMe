@@ -1,4 +1,0 @@
-This is your LockedMe file:
-
-Name: tadeu
-Locker Number: 12

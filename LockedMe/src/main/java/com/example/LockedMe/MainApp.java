@@ -91,7 +91,7 @@ public class MainApp {
 		System.out.println("1 - Add a new File");
 		System.out.println("2 - Search an existent File");
 		System.out.println("3 - Delete an existent File");
-		System.out.println("________________________________________________________");;
+		System.out.println("________________________________________________________");
 		
 		while(s.hasNext()) {
 			if(s.hasNextInt()) {
@@ -116,28 +116,33 @@ public class MainApp {
 						break;
 					default :
 						System.out.println("\n\nOption Invalid!!!!!\n");
-						System.out.println("Please type the numer of desired option to continue:");	
-						System.out.println("\n''''''''''''''''''''''''''''''''''''''''''''''''''''''''");
+						System.out.println("________________________________________________________");
+						System.out.println("File Options Menu");
+						System.out.println("________________________________________________________\n");		
+						System.out.println("Choose an option to continue:");	
+						System.out.println("________________________________________________________");
 						System.out.println("0 - Return to Main Menu");
-						System.out.println("1 - Add File");
-						System.out.println("2 - Search File");
-						System.out.println("3 - Delete File");
-						System.out.println("4 - Update Your Current Locker");
-						System.out.println("''''''''''''''''''''''''''''''''''''''''''''''''''''''''");
-						break;
+						System.out.println("1 - Add a new File");
+						System.out.println("2 - Search an existent File");
+						System.out.println("3 - Delete an existent File");
+						System.out.println("________________________________________________________");
+						break;					
+						
 					}
 				}
 			}
 			else {
 				System.out.println("\n\nOption Invalid!!!!!\n");
-				System.out.println("Please type the numer of desired option to continue:");	
-				System.out.println("\n''''''''''''''''''''''''''''''''''''''''''''''''''''''''");
+				System.out.println("________________________________________________________");
+				System.out.println("File Options Menu");
+				System.out.println("________________________________________________________\n");		
+				System.out.println("Choose an option to continue:");	
+				System.out.println("________________________________________________________");
 				System.out.println("0 - Return to Main Menu");
-				System.out.println("1 - Add File");
-				System.out.println("2 - Search File");
-				System.out.println("3 - Delete File");
-				System.out.println("4 - Update Your Current Locker");
-				System.out.println("''''''''''''''''''''''''''''''''''''''''''''''''''''''''");
+				System.out.println("1 - Add a new File");
+				System.out.println("2 - Search an existent File");
+				System.out.println("3 - Delete an existent File");
+				System.out.println("________________________________________________________");
 				s.next();
 			}
 		}
